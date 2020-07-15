@@ -1,0 +1,697 @@
+{
+  "intents": [
+    {
+      "intent": "COVID-19_UPDATES",
+      "examples": [
+        {
+          "text": "CURRENT STATISTICS OF COVID-19"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "POSITIVE CASES"
+        },
+        {
+          "text": "CURRENT CASES"
+        },
+        {
+          "text": "CURRENT STATISTICS OF CORONA VIRUS"
+        },
+        {
+          "text": "DEATHS"
+        },
+        {
+          "text": "RECOVERED CASES"
+        },
+        {
+          "text": "UPDATES"
+        },
+        {
+          "text": "UPDATES OF COVID-19"
+        },
+        {
+          "text": "DISEASE UPDATES"
+        },
+        {
+          "text": "yes, updates"
+        },
+        {
+          "text": "yes updates"
+        },
+        {
+          "text": "i want updates on this covid-19"
+        },
+        {
+          "text": "CURRENT UPDATES OF COVID-19"
+        },
+        {
+          "text": "CURRENT UPDATES OF CORONA VIRUS"
+        },
+        {
+          "text": "CURRENT UPDATES"
+        }
+      ],
+      "description": "COVID-19 UPDATES"
+    },
+    {
+      "intent": "COVID-19_INFO",
+      "examples": [
+        {
+          "text": "WHAT IS THIS DISEASE"
+        },
+        {
+          "text": "WHAT IS CORONA VIRUS"
+        },
+        {
+          "text": "WHAT IS COVID-19"
+        }
+      ],
+      "description": "COVID-19 INFO"
+    },
+    {
+      "intent": "BYE",
+      "examples": [
+        {
+          "text": "THANK YOU COVID-19"
+        },
+        {
+          "text": "THANK YOU COVID-19 BOT"
+        },
+        {
+          "text": "THANK YOU FOR UPDATES"
+        },
+        {
+          "text": "THANK YOU BUDDY"
+        },
+        {
+          "text": "YOU ARE SO NICE"
+        },
+        {
+          "text": "TNQ FOR UPDATES"
+        },
+        {
+          "text": "THANK YOU COVID-19 CHATBOT"
+        },
+        {
+          "text": "no, thank you"
+        },
+        {
+          "text": "no tanq"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "no, tnq"
+        },
+        {
+          "text": "YOU ARE SUCH A NICE BOT"
+        },
+        {
+          "text": "GOOD INFO"
+        },
+        {
+          "text": "THANK YOU BOT"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "COVID-19_HEALTH_FACILITIES",
+      "examples": [
+        {
+          "text": "TYPES OF TREATMENTS AVAILABLE"
+        },
+        {
+          "text": "may i know covid-19 hospitals"
+        },
+        {
+          "text": "coivd-19 hospitals"
+        },
+        {
+          "text": "what about health facilities"
+        },
+        {
+          "text": "MAY I KNOW THE HEALTH FACILITIES PROVIDED BY GOVERNMENT"
+        },
+        {
+          "text": "MAY I KNOW THE HEALTH FACILITIES PROVIDED BY GOVT"
+        },
+        {
+          "text": "MAY I KNOW THE HEALTH FACILITIES PROVIDED BY GOVT."
+        },
+        {
+          "text": "MAY I KNOW THE HEALTH FACILITIES AVAILABLE"
+        },
+        {
+          "text": "MAY I KNOW HEALTH FACILITIES"
+        },
+        {
+          "text": "MAY I KNOW THE HEALTH FACILITIES"
+        },
+        {
+          "text": "WHAT ARE THE HEALTH FACILITIES AVAILABLE"
+        },
+        {
+          "text": "TYPES OF TREATMENTS PROVIDED BY GOVERNMENT"
+        },
+        {
+          "text": "HEALTH FACILITIES"
+        },
+        {
+          "text": "TYPES OF TREATMENTS PROVIDED BY GOVT."
+        },
+        {
+          "text": "TYPES OF TREATMENTS PROVIDED BY GOVT"
+        },
+        {
+          "text": "MEDICATION FACILITIES PROVIDED BY GOVT"
+        },
+        {
+          "text": "TYPES OF TREATMENTS"
+        },
+        {
+          "text": "MEDICATION FACILITIES AVAILABLE"
+        },
+        {
+          "text": "HEALTH FACILITIES AVAILABLE"
+        },
+        {
+          "text": "MEDICATION FACILITIES PROVIDED BY GOVT."
+        },
+        {
+          "text": "MEDICATION FACILITIES PROVIDED BY GOVERNMENT"
+        },
+        {
+          "text": "MEDICATION FACILITIES"
+        }
+      ],
+      "description": "COVID-19_HEALTH_FACILITIES"
+    },
+    {
+      "intent": "COVID-19_SYMPTOMS",
+      "examples": [
+        {
+          "text": "SYMPTOMS"
+        },
+        {
+          "text": "COVID-19 SYMPTOMS"
+        },
+        {
+          "text": "DISEASE SYMPTOMS"
+        },
+        {
+          "text": "what about symptoms"
+        },
+        {
+          "text": "MAY I KNOW THE SYMPTOMS OF COVID-19"
+        },
+        {
+          "text": "MAY I KNOW SYMPTOMS"
+        },
+        {
+          "text": "MAY I KNOW THE SYMPTOMS"
+        },
+        {
+          "text": "MAY I KNOW THE SYMPTOMS OF CORONA VIRUS"
+        },
+        {
+          "text": "CARONA VIRUS SYMPTOMS"
+        }
+      ],
+      "description": "COVID-19 SYMPTOMS"
+    },
+    {
+      "intent": "COVID-19",
+      "examples": [
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "my name is nara"
+        },
+        {
+          "text": "Hello"
+        }
+      ],
+      "description": "COVID-19 Information"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Name",
+          "synonyms": [
+            "i'm",
+            "im",
+            "my name is"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Quarantine_Centres",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Quarantine_Centres",
+          "synonyms": [
+            "Quarantine Centres"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Testing_Centres",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Testing_Centres",
+          "synonyms": [
+            "Testing Centres"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Welcome_Note",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Note",
+          "synonyms": [
+            "Hi",
+            "Hello",
+            "Good Morning",
+            "Good Afternoon",
+            "Good Evening"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "isolation-centres",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "isolation-centres",
+          "synonyms": [
+            "isolation centres"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "parent": "node_7_1590294926698",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1590296945943",
+      "previous_sibling": "slot_7_1590296949285"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1590294926698",
+      "variable": "$Name",
+      "dialog_node": "slot_7_1590296949285",
+      "previous_sibling": "node_9_1590301285185"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "COVID-19 is an infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590294926698",
+      "conditions": "#COVID-19_INFO",
+      "dialog_node": "node_9_1590301285185"
+    },
+    {
+      "type": "standard",
+      "title": "BYE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "THANK YOU. HAVE A NICE DAY. STAY HOME, STAY SAFE!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590499359409",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#BYE",
+      "dialog_node": "node_5_1590503417209"
+    },
+    {
+      "type": "standard",
+      "title": "COVID-19 UPDATES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yep, I can not update you the full details now, click on the URL to get the complete updates in INDIA. <a href=\"https://mygov.in/covid-19/\" target=\"blank\">COVID-19 UPDATES</a>"
+              },
+              {
+                "text": "Anything else you want."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1590303371901",
+      "conditions": "#COVID-19_UPDATES",
+      "dialog_node": "node_5_1590499359409",
+      "previous_sibling": "node_5_1590304200620"
+    },
+    {
+      "type": "standard",
+      "title": "COVID-19 HEALTH FACILITIES",
+      "output": {
+        "generic": [
+          {
+            "title": "Health Facilities in TS",
+            "options": [
+              {
+                "label": "Isolation Centres",
+                "value": {
+                  "input": {
+                    "text": "Isolation Centres"
+                  }
+                }
+              },
+              {
+                "label": "Quarantine Centres",
+                "value": {
+                  "input": {
+                    "text": "Quarantine Centres"
+                  }
+                }
+              },
+              {
+                "label": "Testing Centres ",
+                "value": {
+                  "input": {
+                    "text": "Testing Centres"
+                  }
+                }
+              }
+            ],
+            "description": "(Click on the link to get more details)",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1590303371901",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#COVID-19_HEALTH_FACILITIES",
+      "dialog_node": "node_5_1590304200620"
+    },
+    {
+      "type": "standard",
+      "title": "Quarantine Centres",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To find Quarantine Centres in TS, Visit <a href=\"https://covid19.telangana.gov.in/health-facilities/quarantine-centres/\" target=\"blank\">Quarantine Centres</a> web page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Do you want more updates on COVID-19?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590304200620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1590499359409"
+      },
+      "conditions": "@Quarantine_Centres",
+      "dialog_node": "node_4_1590523194011",
+      "previous_sibling": "node_1_1590523198309"
+    },
+    {
+      "type": "standard",
+      "title": "Testing Centres",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To find Testing Centres in TS, Visit <a href=\"https://covid19.telangana.gov.in/health-facilities/testing-centres/\" target=\"blank\">Testing Centres</a> web page."
+              },
+              {
+                "text": "Do you want more updates on COVID-19?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Want more updates on COVID-19."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590304200620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1590499359409"
+      },
+      "conditions": "@Testing_Centres",
+      "dialog_node": "node_10_1590523187646",
+      "previous_sibling": "node_4_1590523194011"
+    },
+    {
+      "type": "standard",
+      "title": "Isolation Centres",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To find Isolation Centres in TS, Visit <a href=\"https://covid19.telangana.gov.in/health-facilities/isolation-centres/\" target=\"blank\">Isolation Centres</a> web page."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Do you want more updates on COVID-19?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1590304200620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1590499359409"
+      },
+      "conditions": "@isolation-centres",
+      "dialog_node": "node_1_1590523198309"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "May I know your Name."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1590296949285",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1590296949290",
+      "previous_sibling": "handler_10_1590296949290"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1590296949285",
+      "context": {
+        "Name": "@Name"
+      },
+      "conditions": "@Name",
+      "event_name": "input",
+      "dialog_node": "handler_10_1590296949290"
+    },
+    {
+      "type": "standard",
+      "title": "COVID-19 SYMPTOMS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The most common symptoms of COVID-19 are,"
+              },
+              {
+                "text": "1. Fever"
+              },
+              {
+                "text": "2. Tiredness"
+              },
+              {
+                "text": "3. Dry cough "
+              },
+              {
+                "text": "Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually."
+              },
+              {
+                "text": "Some people become infected but don’t develop any symptoms and don’t feel unwell."
+              },
+              {
+                "text": "Most people (about 80%) recover from the disease without needing special treatment."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1590301285185",
+      "conditions": "#COVID-19_SYMPTOMS",
+      "dialog_node": "node_8_1590303371901"
+    },
+    {
+      "type": "frame",
+      "title": "COVID-19 BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm COVID-19 CHATBOT. How can I help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@Welcome_Note",
+      "dialog_node": "node_7_1590294926698",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
